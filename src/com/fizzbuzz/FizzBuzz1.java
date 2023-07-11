@@ -23,14 +23,14 @@ public class FizzBuzz1 {
         else
             System.out.println(input);
 
-        // this has nested if statement which is not usually easy to read
+        // this has nested if-statement which is not encouraged, as it can be difficult to read
 
-        
+
     }
 
 }
 
-/* THIS CODE WORKS BUT DOES NOT FOLLOW 'DRY' (DON'T REPEAT YOURSELF)
+/* THIS CODE WORKS BUT DOES NOT FOLLOW "DRY" (DON'T REPEAT YOURSELF)
    in this case, input % 5 is being repeated twice
 
    if(input % 5 == 0 && input % 3 == 0)
@@ -42,4 +42,4 @@ public class FizzBuzz1 {
         else
             System.out.println(input);
 
-   */
+ */
